@@ -1,5 +1,11 @@
 {
-  "gitReferences": {},
+  "gitReferences": {
+    "python": {
+      "remote": "git@github.com:JedIV/ubs_libs.git",
+      "checkout": "",
+      "remotePath": ""
+    }
+  },
   "pythonPath": [
     "python"
   ],
