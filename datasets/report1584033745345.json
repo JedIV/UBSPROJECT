@@ -1,0 +1,295 @@
+{
+  "type": "UploadedFiles",
+  "managed": false,
+  "formatType": "csv",
+  "checklists": {
+    "checklists": []
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "style": "excel",
+    "charset": "windows-1252",
+    "separator": ",",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": true,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 30,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": ""
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "jed"
+    },
+    "lastModifiedOn": 1584033772247
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "jed"
+    },
+    "lastModifiedOn": 1584033772247
+  },
+  "tags": [],
+  "params": {
+    "uploadBoxId": "03e77a36272d657567b380e418f77a4311026f49bace2de4a129078f7f0661ec",
+    "uploadConnection": "filesystem_managed",
+    "uploadFSProviderType": "Filesystem",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {
+        "name": "Account Name",
+        "type": "string"
+      },
+      {
+        "name": "Industry",
+        "type": "string"
+      },
+      {
+        "name": "Tiering",
+        "type": "string"
+      },
+      {
+        "name": "Account Sales Territory",
+        "type": "string"
+      },
+      {
+        "name": "Account Country",
+        "type": "string"
+      },
+      {
+        "name": "Account State/Territory",
+        "type": "string"
+      },
+      {
+        "name": "ARR (2020 Budget FX USD)",
+        "type": "string"
+      },
+      {
+        "name": "Account Owner",
+        "type": "string"
+      },
+      {
+        "name": "Customer Success Manager",
+        "type": "string"
+      },
+      {
+        "name": "Initial Subscription Date",
+        "type": "string"
+      },
+      {
+        "name": "Subscription End Date Maximum",
+        "type": "string"
+      },
+      {
+        "name": "NPS all time",
+        "type": "string"
+      },
+      {
+        "name": "XXX_Nb of NPS Ratings",
+        "type": "string"
+      },
+      {
+        "name": "XXX_IT Infrastructure",
+        "type": "string"
+      },
+      {
+        "name": "Licensed Users",
+        "type": "string"
+      },
+      {
+        "name": "Api Node",
+        "type": "string"
+      },
+      {
+        "name": "Automation Node",
+        "type": "string"
+      },
+      {
+        "name": "Plugin Number",
+        "type": "string"
+      },
+      {
+        "name": "Active Scenarios with Triggers",
+        "type": "string"
+      },
+      {
+        "name": "Total scenarios with temporal triggers",
+        "type": "string"
+      },
+      {
+        "name": "Freshdesk Requests past 30 days",
+        "type": "string"
+      },
+      {
+        "name": "DAU",
+        "type": "string"
+      },
+      {
+        "name": "MAU",
+        "type": "string"
+      },
+      {
+        "name": "MAU/Licensed Users",
+        "type": "string"
+      },
+      {
+        "name": "Marketing Can Use Logo",
+        "type": "string"
+      },
+      {
+        "name": "Marketing Can Use for Reference Call",
+        "type": "string"
+      },
+      {
+        "name": "Marketing Can Use Public Quote",
+        "type": "string"
+      },
+      {
+        "name": "Marketing Has Done PR",
+        "type": "string"
+      },
+      {
+        "name": "Marketing Has Done Whitepaper/Biz Case",
+        "type": "string"
+      },
+      {
+        "name": "Marketing Has Public Speaker",
+        "type": "string"
+      }
+    ],
+    "userModified": true
+  },
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {
+    "gdpr_contains_personal_data": "UNSURE"
+  }
+}
