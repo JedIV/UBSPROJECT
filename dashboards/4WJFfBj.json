@@ -1,0 +1,34 @@
+{
+  "pages": [
+    {
+      "id": "66jpUOF",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "jed",
+  "listed": true,
+  "name": "UBS Project\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "jed"
+    },
+    "lastModifiedOn": 1584024249323
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "jed"
+    },
+    "lastModifiedOn": 1584024249323
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
