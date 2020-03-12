@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jed"
     },
-    "lastModifiedOn": 1584024882942
+    "lastModifiedOn": 1584024928600
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,8 +85,29 @@
     }
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "customer_id",
+        "type": "string"
+      },
+      {
+        "name": "birth",
+        "type": "string"
+      },
+      {
+        "name": "price_first_item_purchased",
+        "type": "double"
+      },
+      {
+        "name": "gender",
+        "type": "string"
+      },
+      {
+        "name": "add_stuff",
+        "type": "bigint"
+      }
+    ],
+    "userModified": false
   },
   "metrics": {
     "probes": [
