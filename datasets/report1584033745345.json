@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jed"
     },
-    "lastModifiedOn": 1584033772247
+    "lastModifiedOn": 1584033772399
   },
   "creationTag": {
     "versionNumber": 0,
@@ -73,9 +73,19 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "03e77a36272d657567b380e418f77a4311026f49bace2de4a129078f7f0661ec",
-    "uploadConnection": "filesystem_managed",
     "uploadFSProviderType": "Filesystem",
+    "uploadedConfig": {
+      "connection": "filesystem_managed",
+      "path": "/uploads/${projectKey}/report1584033745345",
+      "notReadyIfEmpty": false,
+      "filesSelectionRules": {
+        "mode": "ALL",
+        "excludeRules": [],
+        "includeRules": [],
+        "explicitFiles": []
+      }
+    },
+    "connection": "filesystem_managed",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
