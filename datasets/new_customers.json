@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jed"
     },
-    "lastModifiedOn": 1584024504067
+    "lastModifiedOn": 1584024504169
   },
   "creationTag": {
     "versionNumber": 0,
@@ -73,9 +73,19 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "6174d590a7907a6d6402f2f086dbc060ca4e8bbd886e45ccbf93230af1ba372f",
-    "uploadConnection": "filesystem_managed",
     "uploadFSProviderType": "Filesystem",
+    "uploadedConfig": {
+      "connection": "filesystem_managed",
+      "path": "/uploads/${projectKey}/new_customers",
+      "notReadyIfEmpty": false,
+      "filesSelectionRules": {
+        "mode": "ALL",
+        "excludeRules": [],
+        "includeRules": [],
+        "explicitFiles": []
+      }
+    },
+    "connection": "filesystem_managed",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
