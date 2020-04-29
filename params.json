@@ -113,8 +113,9 @@
       }
     }
   },
-  "name": "UBS Project",
+  "name": "A Project",
   "projectStatus": "Sandbox",
+  "imgPattern": 4,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -170,11 +171,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "jed"
     },
-    "lastModifiedOn": 1584024470899
+    "lastModifiedOn": 1588186490422
   },
   "creationTag": {
     "versionNumber": 0,
